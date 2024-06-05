@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryScape</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    
+                </ul>
+            </nav>
+            <h1 class="site-title">StoryScape</h1>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+        </div>
+        <div class="background-video">
+            <video autoplay muted loop>
+                <source src="vids/fire.mp4" type="video/mp4">
+            </video>
+        </div>
+        <audio id="background-sound" loop>
+            <source src="sounds/fireee.mp3" type="audio/mp3">
+        </audio>
+        <button id="play-sound-btn">
+            <i class="fas fa-volume-up"></i>
+        </button>
+    </header>
+    <section id="about" class="about-section">
+        <div class="video-container">
+          <video id="aboutVideo" src="vids/The Art of Collage Education Presentation in Beige Gold Collage Photographic Style (1).mp4" loop muted>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+      <section id="blog" class="blog-section">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="images/cr1.jpg" alt="Story 1">
+            <div class="story-info">
+              <h3>The Last Sunset</h3>
+              <p>The Sun sets for the last time</p>
+              <a href="blog1.html" class="button-53" role="button">Read More</a>
+
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="images/cr2.jpg" alt="Story 2">
+            <div class="story-info">
+              <h3>The End of the World....or is it</h3>
+              <p>Not everything unfolds as we expect it to</p>
+              <a href="blog2.html" class="button-53" role="button">Read More</a>
+
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="images/cr3.png" alt="Story 2">
+            <div class="story-info">
+              <h3>The Whispering Wonder</h3>
+              <p>Finding a portal to a secret world..</p>
+              <a href="blog3.html" class="button-53" role="button">Read More</a>
+
+            </div>
+          </div>
+          <!-- Add more carousel-slide divs for additional stories -->
+        </div>
+        
+      
+      
+
+    <!-- Your main content here -->
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
