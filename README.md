@@ -1,2 +1,1 @@
-# blog
-storyscape 
+this is my blog website with creative and responsive websites
